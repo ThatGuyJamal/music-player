@@ -1,5 +1,3 @@
 {
-    "autoSave": "OnFocus",
-    "nodejs.typescript.rebuildOnChanges": false,
     "editor.formatOnSave": true,
 }
