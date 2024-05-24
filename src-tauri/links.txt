@@ -1,0 +1,11 @@
+Useful links for dev
+
+- https://tauri.app/v1/guides/features/command
+- https://docs.rs/crate/vpr-audio-player/0.1.0/source/
+- https://crates.io/crates/vpr-audio-analyzer
+- https://github.com/RustAudio/rodio
+- https://github.com/udoprog/audio/blob/main/examples/src/bin/play-mp3.rs
+- https://docs.rs/symphonia/latest/symphonia/
+
+# Needed Packages
+- sudo apt-get install libasound2-dev libudev-dev
