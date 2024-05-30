@@ -6,6 +6,9 @@ Useful links for dev
 - https://github.com/RustAudio/rodio
 - https://github.com/udoprog/audio/blob/main/examples/src/bin/play-mp3.rs
 - https://docs.rs/symphonia/latest/symphonia/
+- https://docs.rs/serde/latest/serde/index.html
+- https://docs.rs/rayon/latest/rayon/
+- https://github.com/xacrimon/dashmap
 
 # Needed Packages
 - sudo apt-get install libasound2-dev libudev-dev

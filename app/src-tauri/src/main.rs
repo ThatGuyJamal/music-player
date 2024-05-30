@@ -1,8 +1,9 @@
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
-mod commands;
-mod player;
+pub mod commands;
+pub mod music;
+pub mod player;
 
 fn main() {
     tauri::Builder::default()

@@ -5,7 +5,7 @@ use std::{
 
 use rodio::{Decoder, OutputStream, Sink};
 
-#[derive(Debug, Clone, PartialEq, Eq)]
+#[derive(PartialEq, Eq)]
 pub enum PlayerError {
     UnableToCloneFileHandle,
     NoFileHandle,
@@ -28,6 +28,7 @@ pub struct Player {
     duration: Option<Duration>,
     seek_index: Option<Vec<(Duration, u64)>>,
 }
+
 impl Player {
     pub fn new() -> Self {
         let (_stream, stream_handle) = OutputStream::try_default().unwrap();
